@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0; // Should always be square, independent from $enable-rounded
-  color: $white;
+  color: $black;
   margin-bottom: 2rem;
   padding: 2rem 1rem;
   position: relative; // To contain overlay
@@ -34,10 +34,10 @@
 
   a {
     &:not([class]) { // Excludes <a> with class, e.g. .btn .badge
-      color: $white;
+      color: $black;
       text-decoration: underline;
       &:hover {
-        color: darken($white, 10);
+        color: darken($black, 10);
       }
     }
   }
@@ -66,8 +66,8 @@
   }
 
   .badge {
-    border: 2px solid $white;
-    color: $white;
+    border: 2px solid $black;
+    color: $black;
     margin-top: 0.25rem;
     padding-left: $badge-padding-x * 2;
     padding-right: $badge-padding-x * 2;
@@ -75,7 +75,7 @@
     text-transform: uppercase;
 
     .btn-close {
-      // color: defined in svg, inverted with .btn-close-white
+      // color: defined in svg, inverted with .btn-close-black
       font-size: inherit;
       margin-left: 0.5rem;
       margin-right: -0.25rem;
@@ -89,14 +89,14 @@
   
   .caption {
     bottom: 0;
-    color: darken($white, 25);
+    color: darken($black, 25);
     font-size: 80%;
     padding: 0 0.5rem;
     position: absolute;
     right: 0;
 
     a {
-      color: darken($white, 25);
+      color: darken($black, 25);
       text-decoration: none;
     }
   }
