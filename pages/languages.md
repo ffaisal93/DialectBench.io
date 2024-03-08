@@ -1,3 +1,9 @@
+---
+title: Languages
+description: Languages
+permalink: /languages/
+toc: true
+---
 <table>
   <caption></caption>
   <thead>
