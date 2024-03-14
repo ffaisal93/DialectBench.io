@@ -1,18 +1,19 @@
 ---
 title: Markdown
 description: >
-  You write your content in [Markdown](https://guides.github.com/features/mastering-markdown/).
+  You write your content in [Markdown](assets/theme/images/solid-color-image.png).
   This page shows how it is rendered by Petridish.
-background:
-  img: https://images.unsplash.com/photo-1550089479-fe0e48e7d788?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJpcmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80
-  by: Krzysztof Niewolny
+<!-- background:
+  img: assets/theme/images/solid-color-image.png
+  by: Krzysztof Niewolny -->
   href: https://unsplash.com/photos/pTfcnk9WZHA
-permalink: /temp/
+permalink: /readme/
 toc: true
 ---
 
 {:.alert .alert-warning}
 The source file for this page is [`pages/docs/markdown.md`](https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/docs/markdown.md). There you can see the raw Markdown.
+
 
 ## Download Data
 - Download all data available `[except mt  and the ones loadable through huggingface]`
@@ -23,7 +24,6 @@ The source file for this page is [`pages/docs/markdown.md`](https://raw.githubus
   ```bash
   bash download_data.sh --task machine_translation_turkish
   ```
-
 
 ## Package Installation 
 -  `Dependency parsing:` Install Adapter Package
