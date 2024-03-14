@@ -2,11 +2,14 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: About
-  href: /about/
-- text: README
+- text: Documentation
   href: /readme/
 - text: Languages
   href: /languages/
 - text: Results
   href: /results/
+- text: GitHub
+  href: https://github.com/ffaisal93/DialectBench
+- text: Team
+  href: /team/
+  new_window: true

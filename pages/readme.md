@@ -1,8 +1,7 @@
 ---
-title: Markdown
+title: Documentation
 description: >
-  You write your content in [Markdown](assets/theme/images/solid-color-image.png).
-  This page shows how it is rendered by Petridish.
+  Installation and running task-specific experiments.
 <!-- background:
   img: assets/theme/images/solid-color-image.png
   by: Krzysztof Niewolny -->
@@ -11,9 +10,9 @@ permalink: /readme/
 toc: true
 ---
 
-{:.alert .alert-warning}
+<!-- {:.alert .alert-warning}
 The source file for this page is [`pages/docs/markdown.md`](https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/docs/markdown.md). There you can see the raw Markdown.
-
+ -->
 
 ## Download Data
 - Download all data available `[except mt  and the ones loadable through huggingface]`
@@ -193,25 +192,67 @@ bash install.sh --task install_transformers
     fi
   ``` 
 
-#### Dialect Identification (DId)
+### Dialect Identification (DId)
 
 ###### Training
+- Finetune Arabic, English, Mandarin, Portuguese, Spanish and Swiss-Dialect identification models (mbert and xlmr based)
+```bash
+./all_commands.sh --action train_did --execute bash
+```
+- Finetune a dialect identification model of a single language
+```bash
+export lang="arabic" #"arabic" english" "greek" "mandarin_simplified" "mandarin_traditional" "portuguese" "spanish" "swiss-dialects"
+export base_model="mbert" #"mbert" "xlmr"
+bash install.sh --task train_did --lang ${lang} --dataset ${dataset} --MODEL_NAME ${base_model}
+```
 
 ###### Prediction
+```bash
+./all_commands.sh --action predict_did_lm --execute bash
+```
 
-#### Machine Reading Comprehension (MRC)
+### Machine Reading Comprehension (MRC)
 
 ###### Training
+```bash
+./all_commands.sh --action train_reading_comprehension --execute bash
+```
 
 ###### Prediction
+```bash
+./all_commands.sh --action predict_reading_comprehension --execute bash
+```
 
-#### Extractive Question Answering
+### Extractive Question Answering
 
 ###### Training
+- Finetune on all language at once as well as on singlae language and it's varieties. 
+```bash
+./all_commands.sh --action train_sdqa --execute bash
+```
+
+- Add or remove specific language cluster in this `command-bash.sh` block.
+```bash
+f [[ "$task" = "train_sdqa" || "$task" = "predict_sdqa" ]]; then
+
+  export ALL_MODELS=("all" "arabic" "bengali" "english" "finnish" "indonesian" "korean" "russian" "swahili" "telugu")
+
+  for MODEL_NAME in "${ALL_MODELS[@]}"; do
+    echo ${base_model}
+    echo ${MODEL_NAME}
+    bash install.sh --task ${task} --lang ${MODEL_NAME} --MODEL_NAME ${base_model} --dataset dev
+    bash install.sh --task ${task} --lang ${MODEL_NAME} --MODEL_NAME ${base_model} --dataset test
+  done
+fi
+```
+
 
 ###### Prediction
+```bash
+./all_commands.sh --action predict_sdqa --execute bash
+```
 
-### installation
+<!-- ### installation
 comment-out `module load python/3.8.6-ff` inside `install.sh` [specific to cluster]
 - Install Adapter Package `[for dependency parsing]`
   ```
@@ -438,3 +479,4 @@ _Image caption for this image should nicely wrap to the width of the container._
 ![alt text](https://images.unsplash.com/photo-1486825586573-7131f7991bdd?w=150&h=150&fit=crop){:.rounded .float-start} The image to the left is styled with `{:.rounded .float-start}` to give it round corners and position it at the start (i.e. left), with text wrapping around it. Note that in [Bootstrap v5](https://getbootstrap.com/docs/5.1/migration/#utilities) `.float-left` was renamed to `.float-start` and `.float-right` to `.float-end`, but the old class names are still supported in Petridish.
 
 The image does not wrap around this paragraph, because the previous paragraph also has a [`{:.clearfix}`](https://getbootstrap.com/docs/5.1/helpers/clearfix/) class, which contains wrapping to that paragraph only.
+ -->

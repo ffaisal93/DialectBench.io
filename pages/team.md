@@ -1,8 +1,8 @@
 ---
-layout: team1
+layout: team
 title: Team
-description: Who we are
-permalink: /team1/
+description: 
+permalink: /team/
 ---
 
-On this page you can list team members by defining them in [`_data/team.yml`](https://raw.githubusercontent.com/peterdesmet/petridish/main/_data/team.yml).
+<!-- On this page you can list team members by defining them in [`_data/team.yml`](https://raw.githubusercontent.com/ffaisal93/DialectBench.io/main/_data/team.yml). -->

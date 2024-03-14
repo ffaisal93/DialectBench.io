@@ -1,7 +1,7 @@
 ---
 layout: home
 title: DIALECTBENCH
-description: An NLP Benchmark for Dialects, Varieties, and Closely-Related Languages
+description: An NLP Benchmark for Dialects, Varieties, and Closely-Related Languages.
 permalink: /
 toc: true
 ---
@@ -26,7 +26,18 @@ _The tasks and data sources of DIALECTBENCH_
 ![alt text](assets/theme/images/dialect_count.png)
 _DIALECTBENCH language clusters with their variety counts per task._
 
-### Task specific result summary
+### Task specific result summarys
 
 ![alt text](assets/theme/images/result_summary.png)
 _Task specific result summary using Maximum Obtainable Score. The varieties with the minimum scores exhibit a noticeable lag in performance across various tasks when compared to the average task performance._
+
+
+### Bibtex
+
+```
+@article{dialectbench,
+	title={ DialectBench: An NLP Benchmark for Dialects, Varieties, and Closely-Related Languages},
+	author={Fahim Faisal and Orevaoghene Ahia and Aarohi Srivastava and Kabir Ahuja and David Chiang and Yulia Tsvetkov and Antonios Anastasopoulos},
+      year={2024},
+}
+```

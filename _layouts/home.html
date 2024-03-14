@@ -8,6 +8,8 @@ remark: See also page.layout == 'home' in head.html and header.html.
   {% assign two_col = true %}
 {% endif %}
 
+
+
 <div class="row">
   <div class="{% if two_col %}col{% else %}col-md-10 col-lg-8 mx-auto{% endif %}">
     <div class="row">
@@ -36,4 +38,6 @@ remark: See also page.layout == 'home' in head.html and header.html.
         {% endfor %}
       </div>
     {% endif %}
+
 </div>
+
