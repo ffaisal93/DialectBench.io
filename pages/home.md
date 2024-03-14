@@ -18,7 +18,7 @@ have well-established, high-resourced varieties. Varieties may vary by location,
 
 ### Tasks
 
-![alt text](assets/theme/images/tasks.png)
+![alt text](assets/theme/images/dep.png)
 _The tasks and data sources of DIALECTBENCH_
 
 ### Language Clusters and Varieties
