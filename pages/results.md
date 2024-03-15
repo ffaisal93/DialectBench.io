@@ -4,13 +4,18 @@ permalink: /results/
 toc: false
 ---
 
+
+
+<div style="text-align: center;">
 ## Task Specific Results
+</div>
+
 ### Structured Prediction
 
 
 <div style="display: flex; justify-content: center;">
-    <img src="../assets/theme/images/dep.png" style="width: 65%; height: auto; margin-right: 20px;">
-    <img src="../assets/theme/images/pos.png" style="width: 65%; height: auto;">
+    <img src="../assets/theme/images/dep.png" style="width: 80%; height: auto; margin-right: 20px;">
+    <img src="../assets/theme/images/pos.png" style="width: 80%; height: auto;">
 </div>
 
 
