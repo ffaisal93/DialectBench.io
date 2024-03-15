@@ -11,20 +11,20 @@ toc: false
 <h2 style="text-align: center;">Structured Prediction</h2>
 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
 <figure>
-    <img src="../assets/theme/images/dep.png" style="width: 80%; height: auto; margin-right: 20px;">
+    <img src="../assets/theme/images/dep.png" style="width: 100%; height: auto; margin-right: 20px;">
     <figcaption>Dependency Parsing</figcaption>
 </figure>
 <figure>
-    <img src="../assets/theme/images/pos.png" style="width: 80%; height: auto;">
+    <img src="../assets/theme/images/pos.png" style="width: 100%; height: auto;">
     <figcaption>POS Tagging</figcaption>
 </figure>
 </div>
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
 <figure>
-    <img src="../assets/theme/images/ner.png" style="width: 80%; height: auto;">
+    <img src="../assets/theme/images/ner.png" style="width: 100%; height: auto;">
     <figcaption>Named Entity Recognition</figcaption>
 </figure>
 </div>
@@ -32,9 +32,9 @@ toc: false
 <h2 style="text-align: center;">Classification</h2>
 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
 <figure>
-    <img src="../assets/theme/images/topic.png" style="width: 80%; height: auto; margin-right: 20px;">
+    <img src="../assets/theme/images/topic.png" style="width: 100%; height: auto; margin-right: 20px;">
     <figcaption>Topic Classification</figcaption>
 </figure>
 <figure>
@@ -44,7 +44,7 @@ toc: false
 </div>
 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/di.png" style="width: 80%; height: auto; margin-right: 20px;">
     <figcaption>Natural Language Inference</figcaption>
@@ -56,7 +56,7 @@ toc: false
 </div>
 
 
-<h2 style="text-align: center;">Question answering</h2>
+<div style="display: flex; justify-content: center; width: 100%;">
 
 <div style="display: flex; justify-content: center;">
 <figure>
@@ -71,7 +71,7 @@ toc: false
 
 <h2 style="text-align: center;">Machine translation</h2>
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/mt-dialect.png" style="width: 80%; height: auto; margin-right: 20px;">
     <figcaption>Variety level aggregation</figcaption>
