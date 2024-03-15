@@ -14,18 +14,18 @@ toc: false
 <div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/dep.png" style="width: 100%; height: auto; margin-right: 20px;">
-    <figcaption>Dependency Parsing</figcaption>
+    <figcaption style="width: 100%;">Dependency Parsing</figcaption>
 </figure>
 <figure>
     <img src="../assets/theme/images/pos.png" style="width: 100%; height: auto;">
-    <figcaption>POS Tagging</figcaption>
+    <figcaption style="width: 100%;">POS Tagging</figcaption>
 </figure>
 </div>
 
 <div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/ner.png" style="width: 100%; height: auto;">
-    <figcaption>Named Entity Recognition</figcaption>
+    <figcaption style="width: 100%;">Named Entity Recognition</figcaption>
 </figure>
 </div>
 
@@ -35,11 +35,11 @@ toc: false
 <div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/topic.png" style="width: 100%; height: auto; margin-right: 20px;">
-    <figcaption>Topic Classification</figcaption>
+    <figcaption style="width: 100%;">Topic Classification</figcaption>
 </figure>
 <figure>
     <img src="../assets/theme/images/nli.png" style="width: 80%; height: auto;">
-    <figcaption>Natural Language Inference</figcaption>
+    <figcaption style="width: 100%;">Natural Language Inference</figcaption>
 </figure>
 </div>
 
@@ -47,38 +47,38 @@ toc: false
 <div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/di.png" style="width: 80%; height: auto; margin-right: 20px;">
-    <figcaption>Natural Language Inference</figcaption>
+    <figcaption style="width: 100%;">Dialect Identification</figcaption>
 </figure>
 <figure>
     <img src="../assets/theme/images/sc.png" style="width: 80%; height: auto;">
-    <figcaption>Natural Language Inference</figcaption>
+    <figcaption style="width: 100%;">Sentiment Analysis</figcaption>
 </figure>
 </div>
 
+<h2 style="text-align: center;">Question Answering</h2>
 
 <div style="display: flex; justify-content: center; width: 100%;">
-
-<div style="display: flex; justify-content: center;">
 <figure>
     <img src="../assets/theme/images/rcmc.png" style="width: 80%; height: auto; margin-right: 20px;">
-    <figcaption>Multiple Choice Machine Reading Comprehension</figcaption>
+    <figcaption style="width: 100%;">Multiple Choice Machine Reading Comprehension</figcaption>
 </figure>
 <figure>
     <img src="../assets/theme/images/sdqa-test.png" style="width: 80%; height: auto;">
-    <figcaption>Extractive Question Answering</figcaption>
+    <figcaption style="width: 100%;">Extractive Question Answering</figcaption>
 </figure>
 </div>
+
 
 <h2 style="text-align: center;">Machine translation</h2>
 
 <div style="display: flex; justify-content: center; width: 100%;">
 <figure>
     <img src="../assets/theme/images/mt-dialect.png" style="width: 80%; height: auto; margin-right: 20px;">
-    <figcaption>Variety level aggregation</figcaption>
+    <figcaption style="width: 100%;">Variety level aggregation</figcaption>
 </figure>
 <figure>
     <img src="../assets/theme/images/mt-region.png" style="width: 80%; height: auto;">
-    <figcaption>Region level aggregation</figcaption>
+    <figcaption style="width: 100%;">Region level aggregation</figcaption>
 </figure>
 </div>
 
