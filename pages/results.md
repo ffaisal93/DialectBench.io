@@ -1,19 +1,16 @@
 ---
 title: Results
-description: Evaluation Results
 permalink: /results/
 toc: true
 ---
 
-## Results and Analysis
+## Task Specific Results
+Here we present results from
 
 
+|![alt text](../assets/theme/images/dep.png) |![alt text](../assets/theme/images/pos.png)|
 
-### Dependency Parsing
-![alt text](../assets/theme/images/dep.png)
-
-### Parts of Speech Tagging
-![alt text](../assets/theme/images/pos.png)
+|-|-|
 
 ### Named Entity Recognition
 ![alt text](../assets/theme/images/ner.png)
