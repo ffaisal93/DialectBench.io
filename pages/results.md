@@ -6,9 +6,7 @@ toc: false
 
 
 
-<div style="text-align: center;">
-## Task Specific Results
-</div>
+<h2 style="text-align: center;">Task Specific Results</h2>
 
 ### Structured Prediction
 <div style="display: flex; justify-content: center;">
@@ -36,19 +34,17 @@ toc: false
 
 
 
-### Multiple-choice machine reading comprehension
-![alt text](../assets/theme/images/rcmc.png)
-
-
-
-
-### Extractive question answering
-![alt text](../assets/theme/images/sdqa-test.png)
-
-
+### Question answering
+<div style="display: flex; justify-content: center;">
+    <img src="../assets/theme/images/rcmc.png" style="width: 80%; height: auto; margin-right: 20px;">
+    <img src="../assets/theme/images/sdqa-test.png" style="width: 80%; height: auto;">
+</div>
 
 ### Machine translation
-![alt text](../assets/theme/images/mt-dialect.png)
+<div style="text-align: center;">
+    <img src="../assets/theme/images/mt-dialect.png" style="width: 80%; height: auto;">
+</div>
+
 
 
 
