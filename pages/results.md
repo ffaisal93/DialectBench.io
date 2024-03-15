@@ -1,7 +1,7 @@
 ---
 title: Results
 permalink: /results/
-toc: false
+toc: true
 ---
 
 
@@ -48,10 +48,27 @@ _Extractive Question Answering_
 _Variety level aggregation_
 
 ![alt text](../assets/theme/images/mt-region.png)
-_Region level aggregation_
+_Region level aggregation for Swiss German and Italian_
 
 
 <h1 style="text-align: center;">Dialectal Gap</h1>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/dep-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Dependency Parsing</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/pos-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">POS Tagging</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center;">
+        <img src="../assets/theme/images/topic-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Topic Classification</figcaption>
+    </figure>
+</div>
+
+
 
 <h1 style="text-align: center;"> Regional Maps</h1>
 
