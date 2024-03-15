@@ -5,12 +5,18 @@ toc: true
 ---
 
 ## Task Specific Results
-Here we present results from
+### Structured Prediction
 
 
-|![alt text](../assets/theme/images/dep.png) |![alt text](../assets/theme/images/pos.png)|
+<div style="display: flex; justify-content: center;">
+    <img src="../assets/theme/images/dep.png" style="width: 50%; height: auto; margin-right: 10px;">
+    <img src="../assets/theme/images/pos.png" style="width: 50%; height: auto;">
+</div>
 
-|-|-|
+
+|![alt text](../assets/theme/images/dep.png){: width="50%"} |![alt text](../assets/theme/images/pos.png){: width="50%"}|
+
+
 
 ### Named Entity Recognition
 ![alt text](../assets/theme/images/ner.png)
