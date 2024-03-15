@@ -6,7 +6,39 @@ toc: true
 
 
 
-<h1 style="text-align: center;">Task Specific Results</h1>
+
+<h2 style="text-align: center;">Dialectal Gap </h1>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/dep-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Dependency Parsing</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/pos-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">POS Tagging</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center;">
+        <img src="../assets/theme/images/topic-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Topic Classification</figcaption>
+    </figure>
+</div>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/nli-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Natural Language Inference</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/sdqa-test-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Extractive Question Answering</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center;">
+        <img src="../assets/theme/images/ner-gap.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Named Entity Recognition</figcaption>
+    </figure>
+</div>
+
 
 <h2 style="text-align: center;">Structured Prediction</h2>
 
@@ -49,24 +81,6 @@ _Variety level aggregation_
 
 ![alt text](../assets/theme/images/mt-region.png)
 _Region level aggregation for Swiss German and Italian_
-
-
-<h1 style="text-align: center;">Dialectal Gap</h1>
-
-<div style="width: 100%; display: flex; justify-content: center;">
-    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
-        <img src="../assets/theme/images/dep-gap.png" style="width: 100%; height: auto;">
-        <figcaption style="width: 100%;">Dependency Parsing</figcaption>
-    </figure>
-    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
-        <img src="../assets/theme/images/pos-gap.png" style="width: 100%; height: auto;">
-        <figcaption style="width: 100%;">POS Tagging</figcaption>
-    </figure>
-    <figure style="display: inline-block; text-align: center;">
-        <img src="../assets/theme/images/topic-gap.png" style="width: 100%; height: auto;">
-        <figcaption style="width: 100%;">Topic Classification</figcaption>
-    </figure>
-</div>
 
 
 
