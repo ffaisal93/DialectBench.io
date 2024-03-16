@@ -52,7 +52,7 @@
   # github: github_username
   email: kahuja@cs.washington.edu
 
-- name: David Chiang
+- name: Dr. David Chiang
   # role:
   # image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
   description: > # Can be Markdown
@@ -65,7 +65,7 @@
   # github: github_username
   email: dchiang@nd.edu
 
-- name: Yulia Tsvetkov
+- name: Dr. Yulia Tsvetkov
   # role:
   # image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
   description: > # Can be Markdown
@@ -78,7 +78,7 @@
   # github: github_username
  email: yuliats@cs.washington.edu
 
-- name: Antonios Anastasopoulos
+- name: Dr. Antonios Anastasopoulos
   # role:
   # image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
   description: > # Can be Markdown
