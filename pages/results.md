@@ -55,13 +55,16 @@ toc: true
     <figcaption style="width: 100%;">POS Tagging</figcaption>
 </figure>
 
-<figure style="display: block; margin: 0 auto; text-align: center;">
+
+<figure style="display: block; margin: 40px auto; text-align: center;">
     <img src="../assets/theme/images/ner.png" style="width: 100%; height: auto;">
     <figcaption style="width: 100%;">Named Entity Recognition</figcaption>
 </figure>
 
 
 <h3 style="text-align: center;">Sequence Classification</h3>
+<p style="text-align: center;">Here,  we report city-level Dialect Identification results for Arabic and High German but country-level results for Portuguese, Spanish and English. For Sentiment Analysis, we only report region/country-level results for Arabic. We generally observe the largest in-cluster disparity within Kurdish. The Sotho varieties consistently perform significantly lower compared to other varities on NLI and DiD. Overall we find the Chinese \cluster{} performing on par with high-resource Latin counterparts.</p>
+
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/topic.png" style="width: 100%; height: auto;">
