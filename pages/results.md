@@ -81,26 +81,29 @@ toc: true
     <figcaption style="width: 100%;">Dialect Identification</figcaption>
 </figure>
 
-<figure style="display: block; margin: 0 auto; text-align: center;">
+<figure style="display: block; margin: 40px auto; text-align: center;">
     <img src="../assets/theme/images/sc.png" style="width: 100%; height: auto;">
     <figcaption style="width: 100%;">Sentiment Analysis</figcaption>
 </figure>
 
 
 <h3 style="text-align: center;">Question Answering</h3>
+<p style="text-align: center;">There are no significant gaps within varities in each cluster, In EQA zero-shot experiments, English and its varieties have the highest performance overall and Korean varieties score the lowest. </p>
+
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/rcmc.png" style="width: 100%; height: auto;">
     <figcaption style="width: 100%;">Multiple Choice Machine Reading Comprehension</figcaption>
 </figure>
 
-<figure style="display: block; margin: 0 auto; text-align: center;">
+<figure style="display: block; margin: 40px auto; text-align: center;">
     <img src="../assets/theme/images/sdqa-test.png" style="width: 100%; height: auto;">
     <figcaption style="width: 100%;">Extractive Question Answering</figcaption>
 </figure>
 
 
 <h3 style="text-align: center;">Machine Translation</h3>
+<p style="text-align: center;">Here, the performance gap varies widely across and within language varieties. The model perfomance is similar within the Swiss-German. We see surprisingly higher scores on the eastern Norwegian dialect even though we perform zero-shot transfer from Norwegian Nynorsk (a Western dialect) . Refer to the plots for detailed results on other language clusters. </p>
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/mt-dialect.png" style="width: 100%; height: auto;">
