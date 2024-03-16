@@ -14,6 +14,15 @@ toc: true
 The source file for this page is [`pages/docs/markdown.md`](https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/docs/markdown.md). There you can see the raw Markdown.
  -->
 
+## Get started
+
+Clone the github repository.
+
+```bash
+git clone https://github.com/ffaisal93/DialectBench.io.git
+cd DialectBench
+```
+
 ## Download Data
 - Download all data available `[except mt  and the ones loadable through huggingface]`
   ```bash
