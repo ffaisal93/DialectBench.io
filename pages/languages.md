@@ -1,6 +1,5 @@
 ---
-title: Languages
-description: Languages
+title: Languages of DialectBench
 permalink: /languages/
 toc: true
 ---
