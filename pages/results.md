@@ -117,3 +117,17 @@ toc: true
 
 
 <h2 style="text-align: center;">Regional Maps</h2>
+
+<p style="text-align: center;">For Italian and Swiss-German we report Machine Translation results aggregated across regions in Italy and Switzerland respectively. Performance is similar within the Swiss-German cluster, with higher performance across regions in Northern Switzerland, which is geographically closer to Germany. </p>
+
+
+<div style="width: 100%; display: flex; justify-content: center;">
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/NLLB_Switzerland.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Swiss German</figcaption>
+    </figure>
+    <figure style="display: inline-block; text-align: center; margin-right: 20px;">
+        <img src="../assets/theme/images/NLLB_Italian.png" style="width: 100%; height: auto;">
+        <figcaption style="width: 100%;">Italian</figcaption>
+    </figure>
+</div>
