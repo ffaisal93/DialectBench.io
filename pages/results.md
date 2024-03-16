@@ -6,7 +6,8 @@ toc: true
 
 
 
-<h2 style="text-align: center;">Dialectal Gap</h2>
+<h2 style="text-align: center;">Dialectal Gap Across Language Clusters</h2>
+<p style="text-align: center;">Here we plot the zero-shot dialectal gap across all tasks. On the x-axis, we plot aggregated cluster-level gap compared to English, while on the y-axis, we plot the aggregated cluster-level gap compared to the representative variety (standard variety).   </p>
 
 <div style="width: 100%; display: flex; justify-content: center;">
     <figure style="display: inline-block; text-align: center; margin-right: 20px;">
