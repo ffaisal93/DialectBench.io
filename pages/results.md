@@ -40,6 +40,7 @@ toc: true
     </figure>
 </div>
 
+<hr style="border: 1px solid #000;">
 <h2 style="text-align: center;">Task Specific Scores</h2>
 
 <h3 style="text-align: center;">Structured Prediction</h3>
@@ -115,7 +116,7 @@ toc: true
     <figcaption style="width: 100%;">Region level aggregation for Swiss German and Italian</figcaption>
 </figure>
 
-
+<hr style="border: 1px solid #000;">
 <h2 style="text-align: center;">Regional MT Maps (Italian and Swiss German)</h2>
 
 <p style="text-align: center;">For Italian and Swiss-German we report Machine Translation results aggregated across regions in Italy and Switzerland respectively. (A darker
