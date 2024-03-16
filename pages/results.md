@@ -138,7 +138,7 @@ shade of green indicates a higher score). </p>
 
 <h2 style="text-align: center;">Highest and lowest scoring varieties</h2>
 
-<p style="text-align: center;">The highest-performing varieties are mostly standard high-resource languages and a few high-resource dialects (Norwegian dialects) whereas, the majority of the lowest-performing language variants are low-resourced varieties. This is not surprising, however we also note that there is a correlation between language writing script and its performance. The top-10 scroting varieties are  written with Latin script. </p>
+<p style="text-align: center;">The highest-performing varieties are mostly standard high-resource languages and a few high-resource dialects (Norwegian dialects) whereas, the majority of the lowest-performing language variants are low-resourced varieties. This is not surprising, however we also note that there is a correlation between language writing script and its performance. The top-10 scoring varieties are  written with Latin script. (* indicates standard varieties }) </p>
 
 | Task (Dataset)                          | Dialects with Highest Performance                                   | Dialects with Lowest Performance                                 |
 |----------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------|
