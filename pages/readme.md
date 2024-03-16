@@ -16,7 +16,7 @@ The source file for this page is [`pages/docs/markdown.md`](https://raw.githubus
 
 ## Get started
 
-Clone the github repository.
+Clone the [github repository](https://github.com/ffaisal93/DialectBench).
 
 ```bash
 git clone https://github.com/ffaisal93/DialectBench.io.git
