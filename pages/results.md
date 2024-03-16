@@ -135,6 +135,8 @@ shade of green indicates a higher score). </p>
 
 <h2 style="text-align: center;">Highest and lowest scoring varieties</h2>
 
+<p style="text-align: center;">The highest-performing varieties are mostly standard high-resource languages and a few high-resource dialects (Norwegian dialects) whereas, the majority of the lowest-performing language variants are low-resourced varieties. This is not surprising, however we also note that there is a correlation between language writing script and its performance. The top-10 scroting varieties are  written with Latin script. </p>
+
 | Task (Dataset)                          | Dialects with Highest Performance                                   | Dialects with Lowest Performance                                 |
 |----------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------|
 | DEP parsing (UD)                       | anglic/english* italian romance/italian (r:formal, m:written, i:essay)* | tupi-guarani subgroup i.a/old guarani* arabic/north african arabic |
@@ -161,3 +163,13 @@ shade of green indicates a higher score). </p>
 |                                        | norwegian/norwegian nynorsk (m:written)* southwestern shifted romance/galician* | sinitic/hakka chinese* gallo-italian/emiliano-romagnolo          |
 |                                        | norwegian/norwegian (m:written, i:samnorsk) italian romance/italian* | sotho-tswana (s.30)/northern sotho* greater panjabic/eastern panjabi* |
 |                                        | norwegian/norwegian bokmål (m:written)* hindustani/fiji hindi*     | kurdish/
+| NLI (XNLI-translate-test) | anglic/english*                                             | norwegian/norwegian bokmål (m:written)*                   |
+|                           | southwestern shifted romance/spanish*                       | sinitic/classical-middle-modern sinitic (o:simplified)*  |
+|                           | southwestern shifted romance/portuguese (a:european)        | southwestern shifted romance/occitan                      |
+|                           | italian romance/italian*                                    | norwegian/norwegian nynorsk (m:written)*                  |
+|                           | southwestern shifted romance/galician*                      | arabic/standard arabic*                                   |
+| POS tagging (UD)          | anglic/english*                                             | gallo-rhaetian/french (a:paris)                          |
+|                           | norwegian/norwegian bokmål (m:written)*                     | neva/finnish*                                             |
+|                           | high german/german*                                         | italian romance/italian*                                  |
+|                           | norwegian/norwegian nynorsk (m:written)*                    | neva/estonian*                                            |
+|                           | gallo-rhaetian/french*
