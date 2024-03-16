@@ -5,7 +5,7 @@ toc: true
 
 
 
-<h1 style="text-align: center;">Dialectal Gap Across Language Clusters</h1>
+<h2 style="text-align: center;">Dialectal Gap Across Language Clusters</h2>
 <p style="text-align: center;">Here we plot the zero-shot dialectal gap across all tasks. On the x-axis, we plot aggregated cluster-level gap compared to English, while on the y-axis, we plot the aggregated cluster-level gap compared to the representative variety (standard variety). In an ideal scenario, both of these gap values would be close to zero. </p>
 
 <div style="width: 100%; display: flex; justify-content: center;">
@@ -40,8 +40,8 @@ toc: true
     </figure>
 </div>
 
-<h1 style="text-align: center;">Task Specific Scores</h1>
-<h2 style="text-align: center;">Structured Prediction</h2>
+<h2 style="text-align: center;">Task Specific Scores</h2>
+<h3 style="text-align: center;">Structured Prediction</h3>
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/dep.png" style="width: 100%; height: auto;">
@@ -59,7 +59,7 @@ toc: true
 </figure>
 
 
-<h2 style="text-align: center;">Sequence Classification</h2>
+<h3 style="text-align: center;">Sequence Classification</h3>
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/topic.png" style="width: 100%; height: auto;">
@@ -82,7 +82,7 @@ toc: true
 </figure>
 
 
-<h2 style="text-align: center;">Question Answering</h2>
+<h3 style="text-align: center;">Question Answering</h3>
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/rcmc.png" style="width: 100%; height: auto;">
@@ -95,7 +95,7 @@ toc: true
 </figure>
 
 
-<h2 style="text-align: center;">Machine Translation</h2>
+<h3 style="text-align: center;">Machine Translation</h3>
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/mt-dialect.png" style="width: 100%; height: auto;">
@@ -108,4 +108,4 @@ toc: true
 </figure>
 
 
-<h1 style="text-align: center;">Regional Maps</h1>
+<h2 style="text-align: center;">Regional Maps</h2>
