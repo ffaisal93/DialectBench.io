@@ -174,4 +174,7 @@ shade of green indicates a higher score). </p>
 |                           | norwegian/norwegian bokmål (m:written)*                     | neva/finnish*                                             |
 |                           | high german/german*                                         | italian romance/italian*                                  |
 |                           | norwegian/norwegian nynorsk (m:written)*                    | neva/estonian*                                            |
-|                           | gallo-rhaetian/french*
+|                           | gallo-rhaetian/french* |
+
+| **writing system** (non-MT) | **Latin (77.2%)**                                         | **Latin (44.2%)**                                         |
+| **dialect** (non-MT)        | **Standard (7%)**                                          | **Standard (4.5%)**                                       |
