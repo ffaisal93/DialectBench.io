@@ -41,7 +41,9 @@ toc: true
 </div>
 
 <h2 style="text-align: center;">Task Specific Scores</h2>
+
 <h3 style="text-align: center;">Structured Prediction</h3>
+<p style="text-align: center;">Across all structured prediction tasks, we observe higher performance in higher-resourced Indo-European languages compared to low-resource varieties from  indigenous South American and  Uralic language clusters. </p>
 
 <figure style="display: block; margin: 0 auto; text-align: center;">
     <img src="../assets/theme/images/dep.png" style="width: 100%; height: auto;">
