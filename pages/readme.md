@@ -19,7 +19,7 @@ The source file for this page is [`pages/docs/markdown.md`](https://raw.githubus
   ```bash
   bash download_data.sh --task all
   ```
-- Download Turkish dialectal machine translations
+- Download data for Turkish dialectal machine translation
   ```bash
   bash download_data.sh --task machine_translation_turkish
   ```
@@ -163,16 +163,16 @@ bash install.sh --task install_transformers
 ```
 
 
-### Santiment Analysis (SA)
+### Sentiment Analysis (SA)
 
 ###### Training
-- At this point, DialectBench support arabic dialectal sentiment analysis. To finetune variety-specific models:
+- At this point, DialectBench only supports arabic dialectal sentiment analysis. To finetune variety-specific models:
 ```bash
 ./all_commands.sh --action train_sa --execute bash
 ```
 
 ###### Prediction
-- To evaluate, each variety-specific model at one go:
+- To evaluate each variety-specific model at one go:
 ```bash
 ./all_commands.sh --action predict_sa --execute bash
 ```
