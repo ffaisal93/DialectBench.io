@@ -132,3 +132,32 @@ shade of green indicates a higher score). </p>
         <figcaption style="width: 100%;">Italian: For Italian, we see that areas adjacent to Tuscany exhibit darker shades of green, denoting higher performance. However, scores gradually diminish with distance from these regions.</figcaption>
     </figure>
 </div>
+
+<h2 style="text-align: center;">Highest and lowest scoring varieties</h2>
+
+| Task (Dataset)                          | Dialects with Highest Performance                                   | Dialects with Lowest Performance                                 |
+|----------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------|
+| DEP parsing (UD)                       | anglic/english* italian romance/italian (r:formal, m:written, i:essay)* | tupi-guarani subgroup i.a/old guarani* arabic/north african arabic |
+|                                        | albanian/albanian* southwestern shifted romance/portuguese (a:european) | komi/komi-zyrian (m:written)* italian romance/continental southern italian |
+|                                        | gallo-rhaetian/french* norwegian/norwegian nynorsk (m:written)*    | saami/skolt saami* komi/komi-zyrian (m:spoken)*                   |
+|                                        | norwegian/norwegian bokmål (m:written)* southwestern shifted romance/portuguese (i:mix)* | tupi-guarani subgroup i.a/mbyá guaraní (a:paraguay) komi/komi-permyak |
+|                                        | italian romance/italian* southwestern shifted romance/brazilian portuguese* | tupi-guarani subgroup i.a/mbyá guaraní (a:brazil)* saami/north saami* |
+| EQA (SD-QA-test)                      | anglic/english (a:scotland) anglic/irish english                  | swahili/swahili (a:kenya)* arabic/algerian arabic                |
+|                                        | anglic/southern african english anglic/philippine english         | bengali/vanga (a:west bengal)* arabic/tunisian arabic            |
+|                                        | anglic/new zealand english anglic/nigerian english                | bengali/vanga (a:dhaka)* arabic/moroccan arabic                  |
+|                                        | anglic/australian english anglic/indian english (a:north)         | korean/seoul (m:spoken)* arabic/egyptian arabic*                |
+|                                        | anglic/southeast american english* anglic/kenyan english         | korean/korean (a:south-eastern, m:spoken)* swahili/swahili (a:tanzania)* |
+| TC (SIB-200)                           | sinitic/classical-middle-modern sinitic (o:traditional)* italian romance/italian* | latvian/east latvian* arabic/moroccan arabic                    |
+|                                        | anglic/english* southwestern shifted romance/galician*            | sotho-tswana (s.30)/northern sotho* high german/limburgan        |
+|                                        | sinitic/cantonese* norwegian/norwegian nynorsk (m:written)*      | kurdish/northern kurdish gallo-italian/lombard                   |
+|                                        | sinitic/classical-middle-modern sinitic (o:simplified)* norwegian/norwegian nynorsk (m:written)* | sotho-tswana (s.30)/southern sotho* gallo-italian/ligurian       |
+|                                        | southwestern shifted romance/portuguese (a:european) arabic/standard arabic* | kurdish/central kurdish common turkic/south azerbaijani          |
+| MRC (Belebele)                        | anglic/english* arabic/north mesopotamian arabic                  | arabic/moroccan arabic sinitic/classical-middle-modern sinitic (o:simplified)* |
+|                                        | sinitic/classical-middle-modern sinitic (o:simplified)* arabic/moroccan arabic | arabic/egyptian arabic* sinitic/classical-middle-modern sinitic (o:traditional)* |
+|                                        | sinitic/classical-middle-modern sinitic (o:traditional)* arabic/egyptian arabic* | arabic/najdi arabic sinitic/classical-middle-modern sinitic (o:traditional)* |
+|                                        | arabic/standard arabic* arabic/najdi arabic                      | sotho-tswana (s.30)/northern sotho* arabic/levantine arabic (a:north)* |
+|                                        | arabic/levantine arabic (a:north)* sotho-tswana (s.30)/northern sotho* | sotho-tswana (s.30)/southern sotho* arabic/north mesopotamian arabic |
+| NER (Wikiann)                          | anglic/english (o:controlled)* modern dutch/dutch*               | sinitic/classical chinese mari/western mari                     |
+|                                        | norwegian/norwegian nynorsk (m:written)* southwestern shifted romance/galician* | sinitic/hakka chinese* gallo-italian/emiliano-romagnolo          |
+|                                        | norwegian/norwegian (m:written, i:samnorsk) italian romance/italian* | sotho-tswana (s.30)/northern sotho* greater panjabic/eastern panjabi* |
+|                                        | norwegian/norwegian bokmål (m:written)* hindustani/fiji hindi*     | kurdish/
