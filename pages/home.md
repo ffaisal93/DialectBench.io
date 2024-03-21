@@ -35,9 +35,12 @@ _Task specific result summary using Maximum Obtainable Score. The varieties with
 ### Bibtex
 
 ```
-@article{dialectbench,
-	title={ DialectBench: An NLP Benchmark for Dialects, Varieties, and Closely-Related Languages},
-	author={Fahim Faisal and Orevaoghene Ahia and Aarohi Srivastava and Kabir Ahuja and David Chiang and Yulia Tsvetkov and Antonios Anastasopoulos},
+@misc{faisal2024dialectbench,
+      title={DIALECTBENCH: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages}, 
+      author={Fahim Faisal and Orevaoghene Ahia and Aarohi Srivastava and Kabir Ahuja and David Chiang and Yulia Tsvetkov and Antonios Anastasopoulos},
       year={2024},
+      eprint={2403.11009},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
