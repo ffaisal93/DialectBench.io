@@ -23,6 +23,10 @@ toc: true
     <img src="assets/theme/images/poster_preview.png" alt="Poster Preview" class="preview-image poster-border">
     <div>Poster</div>
   </a>
+  <a href="https://drive.google.com/file/d/1gitX2cbFCzvaCfbJqElPlaegviVzEX6m/view?usp=sharing" target="_blank" class="text-center">
+    <img src="assets/theme/images/llm_eval_paper.png" alt="Paper (LLM Evaluation)" class="preview-image poster-border">
+    <div>LLM Eval</div>
+  </a>
 </div>
 
 <style>
